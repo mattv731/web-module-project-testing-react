@@ -17,6 +17,7 @@ const Show = (props) => {
           <option value="none"></option>
           {
             show.seasons.map(season=>{
+              console.log(season)
               return(<option data-testid="season-option" key={season.id} value={season.id}>{season.name}</option>);
             })
           }
