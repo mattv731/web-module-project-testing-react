@@ -6,7 +6,7 @@ import userEvent from '@testing-library/user-event';
 import Display from './../Display';
 
 import mockFetchShow from './../../api/fetchShow';
-jest.mock('./../../api/fetchShow')
+jest.mock('./../../api/fetchShow');
 
 const showTest = {
     name: 'Hello everyone',
